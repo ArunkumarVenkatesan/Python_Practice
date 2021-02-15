@@ -1,0 +1,45 @@
+
+1.
+
+
+
+
+
+
+2.
+string='python'
+str='c'+string[1:len(string)]
+print(str)
+
+
+
+3.
+str={"name": "python", "ext": "py", "creator": "guido"}
+print(str.keys())
+print(str.values())
+for x in str:
+    print(x,str[x])
+
+
+4.
+for fizzbuzz in range(51):
+    if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
+        print("fizzbuzz")
+        continue
+    elif fizzbuzz % 3 == 0:
+        print("fizz")
+        continue
+    elif fizzbuzz % 5 == 0:
+        print("buzz")
+        continue
+    print(fizzbuzz)
+
+
+5.
+number=float(input("Enter a number: "))
+default = 50
+if number > default:
+  print("{} is greater than 50".format(number))
+else:
+  print("{} is less than 50".format(number))
+
